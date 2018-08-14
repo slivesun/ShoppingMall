@@ -1,0 +1,70 @@
+.jb .comsearch_t3 {
+  width: 95%;
+}
+.jb .comsearch_t3 .ch {
+  color: #666;
+  width: 95%;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  font: 14px/50px '微软雅黑';
+  margin-bottom: 20px;
+}
+.jb .comsearch_t3 .ch .chh {
+  height: 50px;
+  width: 21%;
+  box-sizing: border-box;
+  padding-right: 20px;
+  text-align: right;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  float: left;
+}
+.jb .comsearch_t3 .ch .chr {
+  width: 79%;
+  height: 50px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+}
+.jb .comsearch_t3 .ch .chr img {
+  width: 40px;
+  height: 40px;
+}
+.jb .comsearch_t3 #td3 {
+  height: 100%;
+}
+.jb .comsearch_t3 .c .none {
+  border: 0;
+}
+.jb .comsearch_t3 #int {
+  display: block;
+  height: 30px;
+  width: 100px;
+}
+.jb .comsearch_t3 #ints {
+  display: block;
+  height: 30px;
+  width: 400px;
+}
+.jb .comsearch_t3 .c-floor {
+  display: inline-block;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.jb .comsearch_t3 .c-floor button {
+  border-radius: 4px;
+  width: 100px;
+  height: 35px;
+  border: 0;
+  color: #fff;
+  margin-right: 10px;
+}
+.jb .comsearch_t3 .c-floor button:nth-child(1) {
+  background: #1abc9c;
+}
+.jb .comsearch_t3 .c-floor button:nth-child(2) {
+  background: #f04844;
+}

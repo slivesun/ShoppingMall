@@ -1,0 +1,113 @@
+.bjxg {
+  overflow: hidden;
+  position: absolute;
+  width: 375px;
+  height: 290px;
+  border: 1px solid #e5e5e5;
+  top: 53px;
+  left: 28%;
+  background: #eff3f4;
+  display: none
+}
+
+.bjxg p {
+  line-height: 36px;
+  padding-left: 33px;
+}
+
+.bjxg p span {
+  display: inline-block;
+  width: 100px;
+}
+.bjxg p input {
+  text-indent: 10px;
+  color: #666666
+}
+.totop {
+  height: 45px;
+  width: 100%;
+  background: #dfe5e8;
+  line-height: 45px;
+  padding-left: 17px;
+}
+
+#btn1 {
+  float: right;
+  padding: 0 15px;
+  margin: 20px 30px 0 0;
+  cursor:pointer
+}
+
+#btn2 {
+  float: right;
+  padding: 0 15px;
+  margin: 20px 10px;
+  cursor:pointer
+}
+
+
+.jb {
+  margin-top: 30px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+.jb .j-img {
+  color: #666;
+  line-height: 40px;
+  height: 40px;
+  text-indent: 6px;
+  padding: 10px 0;
+}
+.jb .jt-r {
+  width: 30%;
+  height: 40px;
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 8%;
+}
+.jb .jt-r button {
+  width: 87px;
+  height: 33px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  outline: none;
+  margin-left: -1px;
+  color: #666666;
+  cursor: pointer;
+}
+.jb .jt-r button:nth-child(3) {
+  border-radius: 0px 4px 4px 0;
+}
+.jb .jt-r .active {
+  color: #fff;
+  border-radius: 4px 0 0 4px;
+  background: #1abc9c;
+}
+.jb .comsearch_t2 {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+.jb .tbody {
+  overflow: hidden;
+  height: 100%;
+}
+.jb .tbody th {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+}
+.jb .tbody td {
+  border: 0;
+  border: 1px solid #e5e5e5;
+}
+.remove4 {
+  width: 38%;
+  height: 27px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  background: #1abc9c;
+  margin: 0 5px;
+}
+.track {
+  overflow: hidden;
+}

@@ -1,0 +1,19 @@
+.header {
+  height: 80px;
+  background: red;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+}
+.main-container .sidebar {
+  width: 190px;
+  float: left;
+  position: relative;
+  border: 1px solid #ccc;
+  border-width: 0 1px 0 0;
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,334 @@
+.content{
+	background: #fff;
+}
+.content .breadcrumb{
+	padding-top:10px;
+    width: 100%;
+	height: 50px;
+	background: #fff;
+	 font: 13px/50px '微软雅黑';
+      a{
+		  padding: 0 20px;
+		 
+	  }
+	  span{
+		  padding: 0 12px;
+		  display: inline-block;
+		  color: #00AEFF;
+		  border-bottom:2px solid #00AEFF;
+	  }
+	  #bread_r{
+		  float:right;
+		  height: 50px;
+		  width: 20%;
+		  display: flex;
+		  justify-content: space-around;
+		  align-items: center;
+		  text-align: center;
+		  color: #fff;
+		  .add{
+			  width: 38%;
+			  height:27px;
+			  padding: 5px 5px;
+			  background: #ffb752!important;
+			  border-radius: 4px;
+			margin: 0 5px;
+			
+		  }
+		  .remove{
+			  width: 38%;
+			  height: 27px;
+			  padding: 5px 5px;
+			   border-radius: 4px;
+			  background: #d15b47!important;
+			  margin: 0 5px;		  
+		  }
+		  a{	
+			  width: 100%;
+			  vertical-align: top;
+				padding: 0;
+				height: 100%;
+				font: 12px/27px '微软雅黑';
+		  }
+		  #add:hover{
+			 background: #e59729!important;
+		  }
+		 #remove:hover{
+			 background: #b74635!important ;
+		  }
+	  }
+	  .remove4{
+		   width: 38%;
+  height: 27px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  background: rgba(26, 188, 156, 1);
+  margin: 0 5px;
+	  }
+	 
+}
+
+.search{
+	padding-top:3px;
+	height: 10px;
+	border-bottom:1px solid #e5e5e5;
+	background: #fff;
+	  
+}
+
+
+.comsearch{
+	.comsearch_h{
+		height: 50px;
+		display: flex;
+		align-items: center;
+		background: #fff;
+		padding-bottom: 12px;
+		padding-top: 3px;
+		ul{
+			 display: flex;
+		  align-items: center;
+		  text-align: center;
+			overflow: hidden;
+			background: #fff;
+			vertical-align: top;
+			li{
+			width: 17%;
+			margin-right: 2%;
+			select{
+					margin-right: 9px;
+		 			 width: 100%;
+		 			 height: 31px;
+				 	 outline: none;
+					  border: 1px solid #ddd;
+					  color:#858585;
+					  text-indent: 10px;
+				  }
+				  #set{
+					  vertical-align: top;
+					  width: 100px;
+				  }
+				
+			
+		}
+		  #sch{
+					  width: 34%;
+					  height: 31px;
+					  overflow: hidden;
+					  vertical-align: top;
+					  #searchs{
+						  width: 70%;
+							display: inline-block;
+							  height: 29px;
+							   text-indent: 10px;
+							   padding: 0;		  
+				  }
+					#searchs-btn{
+							width: 20%;
+							 height: 31px;
+							border: 1px solid #ddd;
+							line-height: 29px;
+							display: inline-block;
+							padding: 0;
+							font-style: inherit;
+							outline: none;
+							background: #fff;
+							cursor: pointer;
+				}
+				  }
+		}
+	
+		
+	}
+    #tab{
+        width: 100%;
+    }
+      h1 {  
+            margin: 0;
+            overflow: hidden;
+		}
+
+
+        span{
+            
+            vertical-align: middle;
+            width:12px;
+            height:12px;
+            display: inline-block;
+              border:1px solid #bbb;
+        }
+        input{
+            outline: none;
+            display: none;
+        }
+        input:checked~span{
+            background:rgba(26, 188, 156, 1) url("../images/dui.png")  no-repeat;
+            background-size:12px 12px;
+             border:1px solid #00AEFF;
+        }
+		table {
+			border-collapse: collapse;
+			border: #bbb;
+		}
+
+		body {
+			width: 100%;
+			height: 100%;
+		}
+
+		.tBody {
+			height: 500px;
+			overflow-X:hidden; 
+			overflow-Y: scroll;
+            background: #fff;
+            // background-color: rgba(255, 255, 255, .6);
+			color: #575a5f;
+			border: 0;
+		}
+
+		.title {
+			text-align: center;
+			color: #fca113;
+			text-shadow: 0 0 2px #fcf913;
+			line-height: 50px;
+		}
+		table {
+			border: 0;
+		  border-color: transparent;
+		}
+		th {
+            padding: 0 10px;
+            font-size: 14px;
+			line-height: 30px;
+			border: 0;
+		}
+		tr {
+			height: 40px;
+		}
+		ul {
+			padding: 5px 0;
+			width: 80%;
+			text-align: center;
+		}
+		td {
+			font-size: 14px;
+			border-bottom:1px solid #ddd;
+			text-align: center;
+			  img{
+				color: #666;
+				  font-size: 42px;
+				  width: 50px;
+				  height: 50px;
+				  cursor: pointer;
+			  }
+			  .icon-bianji-copy{
+				  line-height: 20px;
+				  font-size:20px;
+				  color: #fff;
+				  background: rgba(26, 188, 156, 1);
+			  }
+			  .icon-shanchu2{
+				   line-height: 20px;
+				  font-size:20px;
+				  color: #fff;
+				  background: rgb(240, 72, 68);
+			  }
+			  .icon-chaxun{
+				  line-height: 20px;
+				  font-size:20px;
+				  color: #fff;
+				  background: rgb(7, 225, 241);
+			  }
+			  .active{
+				  color: rgba(26, 188, 156, 1);
+				  font-size: 42px;
+				  background: #fff;
+			  }
+			  i{
+				  font-style: inherit;
+				  color: rgba(17, 172, 17, 0.822);
+				  cursor: pointer;
+			  }
+		}
+		.is{
+			color: #666;
+		}
+
+		td input {
+			margin: 0 2px;
+		}		
+		label {
+			display: inline-block;
+		}
+
+		input[type="text"] {
+			border: 1px solid #ccc;
+			width: 80px;
+			height: 20px;
+		}
+		.active {
+			background-color: #f7cb75;
+		}
+
+  
+   #page{
+	   height: 40px;
+	   
+	     .pag{
+			//  width: 38%;
+			color: #575a5f;
+			 height: 100%;
+			 float: right;
+			 font:14px/20px '微软雅黑'; 
+			 vertical-align: top;
+			 display: flex;
+			 align-items: center;
+			 a{
+				font:14px/23px '微软雅黑'; 
+				width: 44px;
+				height: 21px;
+				background: #f1edede3;
+				 text-align: center;
+				 border: 1px solid #f1eded;
+				 padding: 0 3px;
+				 cursor: pointer;
+				  margin:0  6px;
+			 }
+			 i{ width: 23px;
+				 height: 23px;
+				font:12px/23px '微软雅黑';
+				margin: 0 6px;
+				 cursor: pointer;
+				 background: rgba(26, 188, 156, 1);
+				 color: #fff;
+				  text-align: center;
+			 }
+			 span{
+				 width: 23px;
+				 height: 23px;
+				 font:12px/23px '微软雅黑';
+				 background: #f1edede3;
+				 text-align: center;
+				 border: 1px solid #f1eded;
+				 cursor: pointer;
+				 margin-right: 6px;
+			 }
+			 input{
+				 width: 23px;
+				 height: 23px;
+				 display: inline-block;
+				 padding: 0;
+				background: #f1edede3;
+				 text-align: center;
+				 border: 1px solid #f1eded;
+				 margin:0  6px;
+			 }
+			 button{
+				color:#575a5f;
+				cursor: pointer;
+				margin-left: 6px;
+			 }
+		 }
+   }
+}
+ 

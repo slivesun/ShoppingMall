@@ -1,0 +1,90 @@
+.content .breadcrumb2 {
+  height: 30px;
+  padding: 0;
+}
+.content .breadcrumb2 .user {
+  background: #1abc9c;
+  height: 30px;
+  padding: 0 19px;
+  display: inline-block;
+  font: 14px/30px '微软雅黑';
+  vertical-align: top;
+  color: #fff;
+}
+.search2 {
+  height: 4px;
+}
+.user-t {
+  height: 225px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  margin: 30px 0 0  0;
+  color: #666666;
+}
+.user-t .u-l {
+  background: #f9f9f9;
+  display: inline-block;
+  width: 25%;
+  height: 225px;
+  border-right: 1px solid #e5e5e5;
+  float: left;
+  box-sizing: border-box;
+}
+.user-t p {
+  text-align: center;
+  line-height: 30px;
+}
+.user-t p img {
+  width: 72px;
+  height: 72px;
+  border: 0;
+  font-size: 72px;
+  color: #CCCCCC;
+}
+.user-t p span {
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 14px;
+  background: #f04844;
+}
+.user-t .p1 {
+  margin-top: 35px;
+}
+.user-t .u-lef {
+  width: 14%;
+  height: 100%;
+  background: #f9f9f9;
+  float: left;
+  border-right: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.user-t .u-lef .info {
+  font: 13px/45px '微软雅黑';
+  height: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  text-align: right;
+  padding-right: 24px;
+}
+.user-t .u-lef .none {
+  border: 0;
+}
+.user-t .u-r {
+  width: 23.5%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.user-t .u-r .info2 {
+  font: 13px/45px '微软雅黑';
+  height: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 10px;
+}
+.user-t .u-none {
+  border: 0;
+}

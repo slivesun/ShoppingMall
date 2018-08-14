@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    /* overflow: hidden; */
+}
+#wrap{
+    margin: 0 auto;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+    display: inline-block;
+}
+img{
+    vertical-align: top;
+}
+p{
+    margin: 0;
+}

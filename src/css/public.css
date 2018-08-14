@@ -1,0 +1,103 @@
+
+
+
+
+.content {
+  background: #fff;
+}
+.content .breadcrumb {
+  padding-top: 10px;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  font: 13px/50px '微软雅黑';
+}
+.content .breadcrumb a {
+  padding: 0 20px;
+}
+.content .breadcrumb span {
+  padding: 0 12px;
+  display: inline-block;
+  color: #00AEFF;
+  border-bottom: 2px solid #00AEFF;
+}
+.content .breadcrumb #bread_r {
+  float: right;
+  height: 50px;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.content .breadcrumb #bread_r .add {
+  width: 38%;
+  height: 27px;
+  padding: 5px 5px;
+  background: #ffb752!important;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.content .breadcrumb #bread_r .remove {
+  width: 38%;
+  height: 27px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  background: #d15b47!important;
+  margin: 0 5px;
+}
+.content .breadcrumb #bread_r a {
+  width: 100%;
+  vertical-align: top;
+  padding: 0;
+  height: 100%;
+  font: 12px/27px '微软雅黑';
+}
+.content .breadcrumb #bread_r #add:hover {
+  background: #e59729!important;
+}
+.content .breadcrumb #bread_r #remove:hover {
+  background: #b74635!important ;
+}
+.content .comsearch .comsearch_h1 {
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+.content .comsearch .comsearch_h1 #order {
+  margin-left: 20px;
+  width: 93%;
+}
+.content .comsearch .comsearch_h1 #order div {
+  width: 121px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #e4e4e4;
+}
+.content .comsearch .comsearch_h1 #order div p {
+  display: inline-block;
+}
+.content .comsearch .comsearch_h1 #order div p span {
+  border: 0;
+  display: inline;
+  font: 12px/30px '微软雅黑';
+  color: #666666;
+}
+.content .comsearch .comsearch_h1 #order div p .cache {
+  color: red;
+}
+.content .comsearch .comsearch_h1 #order .active {
+  background: #1abc9c;
+  border: 1px solid #1abc9c;
+}
+.content .comsearch .comsearch_h1 #order .active span {
+  color: #fff;
+}
+.content .comsearch .comsearch_h1 #order .active .cache {
+  color: #fff;
+}
+
+
+#order li div{
+  cursor:pointer
+}

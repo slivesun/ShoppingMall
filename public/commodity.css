@@ -1,0 +1,308 @@
+.content {
+  background: #fff;
+}
+.content .breadcrumb {
+  padding-top: 10px;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  font: 13px/50px '微软雅黑';
+}
+.content .breadcrumb a {
+  padding: 0 20px;
+}
+.content .breadcrumb span {
+  padding: 0 12px;
+  display: inline-block;
+  color: #00AEFF;
+  border-bottom: 2px solid #00AEFF;
+}
+.content .breadcrumb #bread_r {
+  float: right;
+  height: 50px;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.content .breadcrumb #bread_r .add {
+  width: 38%;
+  height: 27px;
+  padding: 5px 5px;
+  background: #ffb752!important;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.content .breadcrumb #bread_r .remove {
+  width: 38%;
+  height: 27px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  background: #d15b47!important;
+  margin: 0 5px;
+}
+.content .breadcrumb #bread_r a {
+  width: 100%;
+  vertical-align: top;
+  padding: 0;
+  height: 100%;
+  font: 12px/27px '微软雅黑';
+}
+.content .breadcrumb #bread_r #add:hover {
+  background: #e59729!important;
+}
+.content .breadcrumb #bread_r #remove:hover {
+  background: #b74635!important ;
+}
+.content .breadcrumb .remove4 {
+  width: 38%;
+  height: 27px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  background: #1abc9c;
+  margin: 0 5px;
+}
+.search {
+  padding-top: 3px;
+  height: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+}
+.comsearch .comsearch_h {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding-bottom: 12px;
+  padding-top: 3px;
+}
+.comsearch .comsearch_h ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  background: #fff;
+  vertical-align: top;
+}
+.comsearch .comsearch_h ul li {
+  width: 17%;
+  margin-right: 2%;
+}
+.comsearch .comsearch_h ul li select {
+  margin-right: 9px;
+  width: 100%;
+  height: 31px;
+  outline: none;
+  border: 1px solid #ddd;
+  color: #858585;
+  text-indent: 10px;
+}
+.comsearch .comsearch_h ul li #set {
+  vertical-align: top;
+  width: 100px;
+}
+.comsearch .comsearch_h ul #sch {
+  width: 34%;
+  height: 31px;
+  overflow: hidden;
+  vertical-align: top;
+}
+.comsearch .comsearch_h ul #sch #searchs {
+  width: 70%;
+  display: inline-block;
+  height: 29px;
+  text-indent: 10px;
+  padding: 0;
+}
+.comsearch .comsearch_h ul #sch #searchs-btn {
+  width: 20%;
+  height: 31px;
+  border: 1px solid #ddd;
+  line-height: 29px;
+  display: inline-block;
+  padding: 0;
+  font-style: inherit;
+  outline: none;
+  background: #fff;
+  cursor: pointer;
+}
+.comsearch #tab {
+  width: 100%;
+}
+.comsearch h1 {
+  margin: 0;
+  overflow: hidden;
+}
+.comsearch span {
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border: 1px solid #bbb;
+}
+.comsearch input {
+  outline: none;
+  display: none;
+}
+.comsearch input:checked ~ span {
+  background: #1abc9c url("../images/dui.png") no-repeat;
+  background-size: 12px 12px;
+  border: 1px solid #00AEFF;
+}
+.comsearch table {
+  border-collapse: collapse;
+  border: #bbb;
+}
+.comsearch body {
+  width: 100%;
+  height: 100%;
+}
+.comsearch .tBody {
+  height: 500px;
+  overflow-X: hidden;
+  overflow-Y: scroll;
+  background: #fff;
+  color: #575a5f;
+  border: 0;
+}
+.comsearch .title {
+  text-align: center;
+  color: #fca113;
+  text-shadow: 0 0 2px #fcf913;
+  line-height: 50px;
+}
+.comsearch table {
+  border: 0;
+  border-color: transparent;
+}
+.comsearch th {
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 30px;
+  border: 0;
+}
+.comsearch tr {
+  height: 40px;
+}
+.comsearch ul {
+  padding: 5px 0;
+  width: 80%;
+  text-align: center;
+}
+.comsearch td {
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.comsearch td img {
+  color: #666;
+  font-size: 42px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.comsearch td .icon-bianji-copy {
+  line-height: 20px;
+  font-size: 20px;
+  color: #fff;
+  background: #1abc9c;
+}
+.comsearch td .icon-shanchu2 {
+  line-height: 20px;
+  font-size: 20px;
+  color: #fff;
+  background: #f04844;
+}
+.comsearch td .icon-chaxun {
+  line-height: 20px;
+  font-size: 20px;
+  color: #fff;
+  background: #07e1f1;
+}
+.comsearch td .active {
+  color: #1abc9c;
+  font-size: 42px;
+  background: #fff;
+}
+.comsearch td i {
+  font-style: inherit;
+  color: rgba(17, 172, 17, 0.822);
+  cursor: pointer;
+}
+.comsearch .is {
+  color: #666;
+}
+.comsearch td input {
+  margin: 0 2px;
+}
+.comsearch label {
+  display: inline-block;
+}
+.comsearch input[type="text"] {
+  border: 1px solid #ccc;
+  width: 80px;
+  height: 20px;
+}
+.comsearch .active {
+  background-color: #f7cb75;
+}
+.comsearch #page {
+  height: 40px;
+}
+.comsearch #page .pag {
+  color: #575a5f;
+  height: 100%;
+  float: right;
+  font: 14px/20px '微软雅黑';
+  vertical-align: top;
+  display: flex;
+  align-items: center;
+}
+.comsearch #page .pag a {
+  font: 14px/23px '微软雅黑';
+  width: 44px;
+  height: 21px;
+  background: #f1edede3;
+  text-align: center;
+  border: 1px solid #f1eded;
+  padding: 0 3px;
+  cursor: pointer;
+  margin: 0  6px;
+}
+.comsearch #page .pag i {
+  width: 23px;
+  height: 23px;
+  font: 12px/23px '微软雅黑';
+  margin: 0 6px;
+  cursor: pointer;
+  background: #1abc9c;
+  color: #fff;
+  text-align: center;
+}
+.comsearch #page .pag span {
+  width: 23px;
+  height: 23px;
+  font: 12px/23px '微软雅黑';
+  background: #f1edede3;
+  text-align: center;
+  border: 1px solid #f1eded;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.comsearch #page .pag input {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  padding: 0;
+  background: #f1edede3;
+  text-align: center;
+  border: 1px solid #f1eded;
+  margin: 0  6px;
+}
+.comsearch #page .pag button {
+  color: #575a5f;
+  cursor: pointer;
+  margin-left: 6px;
+}
